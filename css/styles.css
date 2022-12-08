@@ -1,0 +1,135 @@
+             /* палитра */
+ /* основний колір тексту #434455 */
+
+ /* вторинний колір текста #2E2F42 */
+
+ /* "Accent"#4D5AE5 */
+
+  :root {
+    --primary-text-color:#434455;
+    --title-text-color:#2E2F42;
+    --accent-color: #4D5AE5;
+  }
+ body 
+ {
+background: #FFFFFF ;
+color: var(--primary-text-color);
+}
+.list {
+list-style: none;
+}
+/* шапка сайта */
+.logo {
+    color:  var(--accent-color);
+}
+.logo-head {
+    color: var(--primary-text-color);
+}
+/* hover */
+.logo:hover,
+.logo:focus {
+    color:#31D0AA ;
+     }
+.logo-head:hover {
+color: #31D0AA;
+}
+/* focus */
+.logo:focus{
+color: #31D0AA;
+ }
+
+.logo-head:focus {
+ color: #31D0AA;
+}
+/* active */
+.logo:active {
+    color: #4D5AE5;
+     }
+    .logo-head:active {
+     color: #4D5AE5;}       
+
+ /* навигация сайту */
+.site-nav {
+    color: var(--primary-text-color);
+}
+.nav-link:hover,
+.nav-link:focus {
+color: var(--accent-color);
+} 
+.nav-link:active {
+    color: #31D0AA;
+}
+/* контакти */
+.contact {
+    color: var(--primary-text-color)
+}
+/* hover */
+.contact:hover,
+.contact:focus {
+    color: var(--accent-color);
+}
+/* active */
+.contact:active {
+    color: #31D0AA;
+}
+/* "Main" сайта */
+
+/* Секция герой 1 */
+.section-hero {
+    background-color: var(--primary-text-color);
+}
+.hero {
+    color: #FFFFFF;
+}
+ .hero-title {
+    color: #FFFFFF;
+    background-color: var(--accent-color);
+}
+/* hover */
+[type="button"]:hover,
+[type="button"]:focus {
+    background-color: 
+    var(--primary-text-color)
+}
+
+/* active */
+[type="button"]:active {
+    background-color:#31D0AA ;
+}
+/* ceкции 1,2,3,4 */
+.section {
+    color: var(--primary-text-color);
+}
+
+.section-title {
+
+}
+/* footer сайта */ 
+
+/* logo */
+.logo {
+    color:  var(--accent-color);
+}
+.logo-footer {
+    color: #F4F4FD;
+}
+/* hover */
+.logo:hover {
+ color:#31D0AA ;
+ }
+ .logo-footer:hover {
+        color: #31D0AA;
+        }
+/* focus */
+.logo:focus{
+color: #31D0AA;
+ }
+ .logo-footer:focus {
+ color: #31D0AA;
+}
+/* active */
+.logo:active {
+    color: #4D5AE5;
+     }
+.logo-footer:active {
+     color: #4D5AE5;} 
