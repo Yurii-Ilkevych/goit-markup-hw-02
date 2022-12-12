@@ -53,7 +53,12 @@ line-height: 1.5;
 .nav-link:hover,
 .nav-link:focus {
 color: var(--accent-color);
-} 
+}
+.nav-link {
+text-decoration: none;
+}
+
+
 .nav-link:active {
     color: #31D0AA;
 }
@@ -65,7 +70,8 @@ color: var(--accent-color);
 }
 /* контакти */
 .contact {
-    color: var(--primary-text-color)
+    color: var(--primary-text-color);
+    text-decoration: none;
 }
 /* hover */
 .contact:hover,
@@ -135,6 +141,7 @@ line-height: 1.2;
     font-weight: 600;
     font-size: 36px;
     line-height: 1.11;
+    text-align: center;
 }
 /* footer сайта */ 
 .section-footer {
