@@ -64,9 +64,11 @@ color: var(--primary-text-color);
 }
 .active-portfolio {
     color: var(--accent-color);
+    text-decoration: none;
 }
 .active-studio {
     color: var(--accent-color); 
+    text-decoration: none;
 }
 /* контакти */
 .contact {
@@ -87,8 +89,6 @@ color: var(--primary-text-color);
 /* Секция герой 1 */
 .section-hero {
     background-color: var(--title-text-color);
-
-    text-align: center;
 }
 .hero {
     color: var(--white-color);
@@ -164,6 +164,9 @@ background-color: var(--button-primary-color);
     text-align: center;
 }
 .decoration-list {
+color: var(--primary-text-color);
+
+
     text-decoration: none;
 }
 /* footer сайта */ 
@@ -175,7 +178,7 @@ background-color: var(--title-text-color);
     color:  var(--accent-color);
 }
 .logo-footer {
-    color: var(--button-primary-color)FD;
+    color: var(--white-color)
 }
 .footer-title {
  color: var(--button-primary-color) ;  
